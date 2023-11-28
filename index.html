@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>رواء لتقنية المعلومات</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- Left side -->
+      <img src="./assets/imgs/hero.png" alt="hero" class="left__img" />
+      <!-- Right side -->
+      <div class="right">
+        <!-- Form Container -->
+        <section class="form__container">
+          <!-- Not registered -->
+          <div class="form__register-link">
+            <p>Not registered?</p>
+            <a href="#register" class="form__link">Create an account</a>
+          </div>
+
+          <!-- Form -->
+          <div class="form">
+            <!-- Form heading -->
+            <div class="form__heading">
+              <p class="form__heading__subtitle">Welcome back 👋</p>
+              <h1 class="form__heading__title">Login to your account</h1>
+            </div>
+            <!-- Form fields -->
+            <div class="form__fields">
+              <div class="form__field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Please enter your email"
+                />
+              </div>
+              <div class="form__field">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <button class="form__field__btn">Login</button>
+              <!-- Forgot password -->
+              <a href="#forgotPassword" class="form__link forget"
+                >Forget Password?</a
+              >
+            </div>
+
+            <!-- Seperator -->
+            <div class="seperator">
+              <div class=""></div>
+              or
+              <div class=""></div>
+            </div>
+
+            <!-- Icons -->
+            <div class="icons">
+              <p class="icons__title">Login using</p>
+              <div class="icons__list">
+                <img src="./assets/imgs/icon1.png" alt="google" class="icon" />
+                <img
+                  src="./assets/imgs/icon2.png"
+                  alt="microsoft"
+                  class="icon"
+                />
+                <img src="./assets/imgs/icon3.png" alt="yahoo" class="icon" />
+                <img src="./assets/imgs/icon4.png" alt="apple" class="icon" />
+                <img
+                  src="./assets/imgs/icon5.png"
+                  alt="facebook"
+                  class="icon"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
